@@ -7,10 +7,10 @@ from .tier1_flan import FlanT5Processor
 # from .tier2_phi import Phi2Processor
 
 # Tier 3: API models (Rich, external)
-from .tier3_api import GeminiAPIProcessor
+from .tier3_api import ThirdPartyAPIProcessor
 
 __all__ = [
     "FlanT5Processor",
     # "Phi2Processor",  # Uncomment when deploying with GPU
-    "GeminiAPIProcessor",
+    "ThirdPartyAPIProcessor",
 ]
