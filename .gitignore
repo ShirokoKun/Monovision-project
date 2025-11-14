@@ -1,0 +1,90 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables (DO NOT COMMIT API KEYS)
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Gradio
+.gradio/
+
+# Model cache (models download automatically)
+cache/
+*.pt
+*.bin
+*.safetensors
+*.onnx
+
+# Database
+*.db
+cache.db
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Large executables
+*.exe
+
+# Test files (keep local only)
+test_*.py
+
+# Backup folders
+backup_*/
+ngrok_temp/
+
+# Local launchers (deployment-specific)
+launcher_*.py
+start_*.bat
+start_*.ps1
+start_*.sh
+RUN_SERVER.py
+setup_*.bat
+setup_*.ps1
+
+# Deployment configs (platform-specific)
+render.yaml
+Dockerfile
+.space.yml
+
+# Extra docs (keep main README only)
+ARCHITECTURE_*.md
+CRITICAL_*.md
+DEPLOYMENT_*.md
+ENHANCEMENT_*.md
+FINAL_*.md
+FIXES_*.md
+LAUNCHER_*.md
+LOCAL_*.md
+MONOVISION_*.md
+PHI2_*.md
+PLATFORM_*.md
+RENDER_*.md
+START_*.md
+STREAMLIT_*.md
+HUGGINGFACE_*.md
+
+# Helper scripts (local only)
+*_helper.py
+*_launcher.py
+create_deployment_package.py
+public_access_guide.py
+
+# Huggingface deployment folder (redundant)
+huggingface_deployment/
+
+# Requirements variants (keep main only)
+requirements_*.txt

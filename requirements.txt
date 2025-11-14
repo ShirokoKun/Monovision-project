@@ -1,0 +1,43 @@
+# MonoVision - Core Dependencies for Deployment
+# Optimized for HuggingFace Spaces and local deployment
+
+# === WEB FRAMEWORK (PRIMARY) ===
+gradio==5.49.0
+
+# === CORE ML/AI FRAMEWORKS ===
+torch>=2.0.0
+transformers>=4.40.0
+accelerate>=0.20.0
+sentencepiece>=0.1.99
+
+# === COMPUTER VISION ===
+Pillow>=10.1.0
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+
+# === NLP & EMBEDDINGS ===
+sentence-transformers>=2.2.0
+
+# === HTTP & APIs ===
+aiohttp>=3.9.0
+requests>=2.31.0
+httpx>=0.25.0
+
+# === DATA PROCESSING ===
+numpy>=1.24.0
+scipy>=1.11.0
+
+# === UTILITIES ===
+python-dotenv>=1.0.0
+psutil>=5.9.0
+aiofiles>=23.2.0
+
+# === OPTIONAL: GPU OPTIMIZATIONS ===
+# Uncomment if deploying on GPU with 4GB VRAM
+# bitsandbytes>=0.41.0  # For 4-bit quantization
+# xformers>=0.0.22      # For Flash Attention
+
+# Notes:
+# - Models auto-download from HuggingFace on first run
+# - CUDA versions determined by PyTorch auto-detection
+# - Gradio 5.49.0 is latest stable (Nov 2025)
