@@ -6,8 +6,7 @@ Combining computer vision and natural language processing
 __version__ = "4.1.0"
 __author__ = "KunShiroko"
 
-from .core.orchestrator import MonoVisionOrchestrator
-from .core.config_manager import ProcessingMode, ProcessingRequest, ProcessingResponse
+from .core.orchestrator import MonoVisionOrchestrator, ProcessingMode, ProcessingRequest, ProcessingResponse
 
 __all__ = [
     "MonoVisionOrchestrator",
